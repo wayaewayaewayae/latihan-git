@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,44 +10,43 @@
 </head>
 <body>
 <FORM ACTION="prosfor.php" METHOD="POST" NAME="input"> 
-    <h2>Registrasi</h2>  
-    No PENDAFTARAN   : <br><input type="nomber" name="NOPENDATARAN"><br>
-    NISN : <br><input type="nomber" name="NISN"><br>
-    NAMA : <br><input type="text" name="NAMA"><br>
-    AGAMA :<br><select name="AGAMA"><br>
-           <option value="LAKI-LAKI">L</option> 
-           <option   value="PEREMPUAN">P</option>
+    <h2>FORMULIR PENDAFTARAN</h2>  
+    NO PENDAFTARAN   : <br><input type="nomber" name="NOPENDAFTARAN"><br><br>
+    NISN : <br><input type="nomber" name="NISN"><br><br>
+    NAMA : <br><input type="text" name="NAMA"><br><br>
+    AGAMA :<br><select name = "AGAMA">
+           <option value="ISLAM">ISLAM</option> 
+           <option  value="KRISTEN">KRISTEN</option>
+           </select><br><br>
+    ALAMAT : <br><textarea name ="ALAMAT" cols ="40" rows = "1"></textarea><br><br>
 
-    ALAMAT : <br><input type="textarea" name="ALAMAT"><br>
-    TEMPAT LAHIR : <br><input type="checkdate" name="TEMPATLAHIR"><br>
-    TANGGAL LAHIR : <br><input type="date" name="TANGGALLAHIR"><br>
-    ASAL SEKOLAH : <br><input type="text" name="ASALSEKOLAH"><br>
+    TEMPAT LAHIR : <br><input type="checkdate" name="TEMPATLAHIR"><br><br>
+    TANGGAL LAHIR : <br><input type="date" name="TANGGALLAHIR"><br><br>
+    ASAL SEKOLAH : <br><input type="text" name="ASALSEKOLAH"><br><br>
 
-    JENIS KELAMIN : <br><input type="radio button" name="JENISKELAMIN"><br>
-           <input type="radio" name="JENISKELAMIN" value="TI" checked>
+    JENIS KELAMIN : <br><input type="radio" name="JENISKELAMIN" value="LAKI-LAKI"> 
            LAKI-LAKI<br>
-           <input type="radio" name="JENISKELAMIN" value="SI"> Sistem
-           PEREMPUAN<br> 
+           <input type="radio" name="JENISKELAMIN" value="PEREMPUAN">
+           PEREMPUAN<br><br>
 
-    JURUSAN : <br><select name="JURUSAN"><br>
+    JURUSAN : <br><select name="JURUSAN">
               <option value="REKAYASA PERANGKAT LUNAK">RPL</option> 
-              <option   value="TEKNIK KENDARAAN RINGAN">TKR</option>   
-              <option   value="TEKNIK SEPEDA MOTOR">TSM</option>   
+              <option value="TEKNIK KENDARAAN RINGAN">TKR</option>   
+              <option value="TEKNIK SEPEDA MOTOR">TSM</option>
+              </select><br><br>  
     
-    NAMA AYAH: <br><input type="text" name="NAMAAYAH"><br>
-    PEKERJAAN AYAH : <br><input type="text" name="PEKERJAANAYAH"><br>
-    NAMA IBU : <br><input type="text" name="NAMAIBU"><br>
-    PEKERJAAN IBU : <br><input type="text" name="PEKERJAANIBU"><br>
-    HOBI : <br><input type="cheakbox" name="HOBI"><br>
-         <input type="checkbox" name="Hobi01" value="Badminton" 
-         checked> 
-         Badminton <br>
-         <input type="checkbox" name="Hobi02" value="Voli ">
-          Voli <br>
-         <input type="checkbox" name="Hobi03" value="Berenang">
-         Berenang <br>
-         <input type="checkbox" name="Hobi04" value="Sepak Bola">
-         Sepak Bola<br> 
+    NAMA AYAH: <br><input type="text" name="NAMAAYAH"><br><br>
+    PEKERJAAN AYAH : <br><input type="text" name="PEKERJAANAYAH"><br><br>
+    NAMA IBU : <br><input type="text" name="NAMAIBU"><br><br>
+    PEKERJAAN IBU : <br><input type="text" name="PEKERJAANIBU"><br><br>
+    HOBI : <br><input type="checkbox" name="HOBI" value="Badminton" > 
+         BADMINTON <br>
+         <input type="checkbox" name="HOBI2" value="Voli ">
+          VOLI <br>
+         <input type="checkbox" name="HOBI3" value="Berenang">
+         BERENANG <br>
+         <input type="checkbox" name="HOBI4" value="Sepak Bola">
+         SEPAK BOLA<br> 
     
     <input type="submit" name="Simpan" value="Simpan"style ="color : blue">
     <input type="reset" name="reset" value="Reset"style ="color : red">
