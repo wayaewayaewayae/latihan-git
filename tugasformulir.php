@@ -10,9 +10,9 @@
 </head>
 <body>
 <FORM ACTION="prosfor.php" METHOD="POST" NAME="input"> 
-    <h2>FORMULIR PENDAFTARAN</h2>  
-    NO PENDAFTARAN   : <br><input type="nomber" name="NOPENDAFTARAN"><br><br>
-    NISN : <br><input type="nomber" name="NISN"><br><br>
+    <h2 style ="color : green">FORMULIR PENDAFTARAN </h2>  
+    NO PENDAFTARAN   : <br><input type="number" name="NOPENDAFTARAN"><br><br>
+    NISN : <br><input type="number" name="NISN"><br><br>
     NAMA : <br><input type="text" name="NAMA"><br><br>
     AGAMA :<br><select name = "AGAMA">
            <option value="ISLAM">ISLAM</option> 
@@ -47,9 +47,12 @@
          BERENANG <br>
          <input type="checkbox" name="HOBI4" value="Sepak Bola">
          SEPAK BOLA<br> 
+         <br>
+         <br>
     
     <input type="submit" name="Simpan" value="Simpan"style ="color : blue">
     <input type="reset" name="reset" value="Reset"style ="color : red">
+    
  </FORM> 
 </body>
 </html>
