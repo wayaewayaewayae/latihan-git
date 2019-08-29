@@ -1,10 +1,10 @@
 <?php
 if (isset($_POST['sbm'])) {
-    $NAMA = $_POST['NAMA'];
-    $KELAS = $_POST['KELAS'];
+    $nama = $_POST['nama'];
+    $kelas = $_POST['kelas'];
 
-    foreach ($NAMA as $data){
-        echo "Nama Saya : " . $NAMA[$data];
-        "Kelas : " . $NAMA[$data] . "<hr>";
+    foreach ($nama as $data => $val){
+        echo "Nama Saya : " . $nama[$data];
+        "Kelas : " . $nama[$data] . "<hr>";
     }
 }

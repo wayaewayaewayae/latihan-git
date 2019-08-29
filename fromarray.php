@@ -18,27 +18,28 @@
         <label for"">Masukan Jumlah</label>
         <input type="number" name="jml">
         <br>
+        <input type="submit" name="submit" value="simpan">
+        <hr>
         </from>
         <?php
-        if (isset($_GET['Sumbit'])){
+        if (isset($_GET['submit'])){
             $jml_from = $_GET['jml'];
             for ($a = 1; $a<= $jml_from; $a++){
+
                 ?>
                 <From action ="Formarraypro.php"method="POST">
                     <label for="">NAMA</label>
                     <input type="text" name="nama[]"required>
                     <label for"">KELAS</label>
+                    <input type="text" name="kelas[]"required>
                     <br>
                     <br>
 
             <?php } ?>
-            <input  type="Sumbit" name="sbm" value="SIMPAN">
-            <input type="Reset" value="RESET">
+            <input  type="submit" name="sbm" value="simpan">
+            <input  type="reset" value="reset">
             </From>
             <?php } ?>
         </fleidset>
-        
-        
-    
 </body>
 </html>
