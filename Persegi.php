@@ -9,7 +9,6 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <p>Luas Persegi</p>
     <legend>
        Luas Persegi
        </legend>

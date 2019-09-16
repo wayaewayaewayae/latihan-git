@@ -17,6 +17,7 @@ if (isset($_POST['Simpan'])) {
     $HOBI =   $_POST['HOBI'];
 }
 echo "NO PENDAFTARAN : " . $NOPENDAFTARAN . "<br>";
+
 echo "NISN : " . $NISN . "<br>";
 echo "NAMA : " . $NAMA . "<br>";
 echo "AGAMA : " . $AGAMA . "<br>";
